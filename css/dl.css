@@ -1,0 +1,128 @@
+html,body{
+	height: 100%;
+	width: 100%;
+}
+body{
+	background-color: rgba(0,0,0,0.4);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.warp{
+	width: 380px;
+	padding:2.5em 2.5em 0 2.5em;
+	background-color: #fff;
+	box-sizing: border-box;
+	position: relative;
+}
+.guagbi{
+	position: absolute;
+	top: 5px;
+	right:5px;
+}
+.head > li{
+	width:49%;
+	float:left;
+	font-size:18px;
+	text-align:center;
+	border-right: 1px solid #ccc;
+}
+.head > li:last-child{
+	border-right: none;
+}
+.head > li a:hover{
+	color:#aba690;
+}
+.warp p{
+	line-height: 2em;
+	text-align: right;
+}
+.warp p > a:hover{
+	color:#aba690;
+}
+.user ,.possward{
+	width: 100%;
+	height: 40px;
+	margin: 1.5em 0 2em 0;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	position:relative;
+}
+.user > div,.possward > div{
+	width: 1.5em;
+	float:left;
+	margin:5px .5em;
+}
+.user div:first-child,.possward div:first-child{
+	border-right: 1px solid #ccc;
+}
+.user .fa-user,.possward .fa-unlock-alt{
+	font-size:20px;
+	line-height: 30px;
+	color: #ccc
+}
+.user input ,.possward input{
+	width: 80%;
+	line-height:30px;
+	margin: .5em 0;
+	border:none;
+}
+.user > input:focus + .close{
+	display:block;
+}
+.possward > input:focus + .close{
+	display: block;
+}
+.user .close{
+	display: none;
+}
+.possward .close{
+	display: none;
+}
+.user .fa-times,.possward .fa-times{
+	font-size:20px;
+	line-height: 30px;
+	color: #ccc;
+	position: absolute;
+	top:5px;
+	right:.5em;
+}
+.warp .ok{
+	display: block;
+	width: 100%;
+	height:50px;
+	text-align:center;
+	line-height: 50px;
+	font-size:24px;
+	margin:1.5em 0 100px 0;
+	border-radius:5px;
+	background-color:#b4a078;
+}
+.foot{
+	box-sizing: border-box;
+	width: 380px;
+	height: 50px;
+	line-height: 50px;
+	padding:0 2.5em 0 2.5em;
+	background-color: #ccc;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.foot > ul > li{
+	float: left;
+	font-size: 24px;
+	margin-right: 0.5em;
+}
+.foot > ul > li > a:hover{
+	color:#aba690;
+}
+.yx,.wjmm{
+	font-size: 12px;
+}
+.yx{
+	margin-left: 3.5em;
+}
+.yx:hover,.wjmm:hover{
+	color:#aba690;
+}

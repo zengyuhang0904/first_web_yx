@@ -1,9 +1,70 @@
-html,body{
-}
 .warp{
 	width: 1090px;
 	margin:0 auto;
 	/*background-color: #f2f9ff;*/
+}
+.xhx{
+	text-decoration: underline;
+}
+.warp{
+	width: 1090px;
+	margin: 0 auto;
+	position: relative;
+}
+body>.head{
+	width: 100%;
+	height: 35px;
+	background-color: #333;
+}
+
+.head .hlt{
+	float:left;
+	width: 290px;
+	height: 35px;
+	line-height: 35px;
+}
+.head .hlt a{
+	color: #ccc;
+}
+.head .hlt a:hover{
+	color: #b4a078;
+}
+.head .hlt p{
+	color:#b4a078;
+	height: 35px;
+	line-height: 35px;
+	float: right;
+	cursor: pointer;
+}
+.head .hlt p:hover{
+	color: #fff;
+}
+.head .hrt{
+	height: 35px;
+	line-height: 35px;
+	position: absolute;
+	right: 0;
+}
+.head .hrt >ul>li{
+	float: left;
+	width:70px;
+	text-align: center;
+	margin-right:11px;
+	position: relative;
+}
+.head .hrt >ul>li .line{
+	width: 1px;
+	height: 15px;
+	background-color: #ccc;
+	position: absolute;
+	top: 10px;
+	right: -5px;
+}
+.head .hrt a{
+	color: #ccc;
+}
+.head .hrt a:hover{
+	color: #fff;
 }
 .header .logo{
 	color:#aba690;
@@ -66,6 +127,7 @@ html,body{
 	width:100%;
 	left: 0;
 	display: none;
+	z-index: 1;
 }
 .sub-nav > ul >li{
 	float:left;
@@ -118,8 +180,8 @@ html,body{
 	display: block;
 }
 .content{
-	background-color: #fee59a;
-	height: 420px;
+	/*background-color: #fee59a;*/
+	/*height: 420px;*/
 }
 .content img{
 	width: 100%;
